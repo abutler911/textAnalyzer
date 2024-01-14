@@ -4,11 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Language Analyzer</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <input type="text" id="inputText" />
     <button>Submit</button>
     <div id="result"></div>
+    <div id="readingLevelTable">
+      <h2>Reading Level Reference Table</h2>
+      <table>
+        <tr>
+          <th>Flesch-Kincaid Grade Level</th>
+          <th>Education Level</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>0 - 1</td>
+          <td>Kindergarten</td>
+          <td>Very easy to read. Basic words and sentence structures.</td>
+        </tr>
+        <tr>
+          <td>2 - 3</td>
+          <td>1st to 2nd Grade</td>
+          <td>Easy to read. Simple words and sentences.</td>
+        </tr>
+        <tr>
+          <td>4 - 5</td>
+          <td>3rd to 4th Grade</td>
+          <td>Fairly easy to read.</td>
+        </tr>
+        <tr>
+          <td>6 - 7</td>
+          <td>5th to 6th Grade</td>
+          <td>Plain English. Easily understandable by 11 to 13-year-olds.</td>
+        </tr>
+        <tr>
+          <td>8 - 9</td>
+          <td>7th to 8th Grade</td>
+          <td>Fairly difficult to read.</td>
+        </tr>
+        <tr>
+          <td>10 - 12</td>
+          <td>High School</td>
+          <td>Challenging for the average reader. Suitable for ages 15-17.</td>
+        </tr>
+        <tr>
+          <td>13 - 15</td>
+          <td>College</td>
+          <td>
+            More difficult to read. Best understood by university graduates.
+          </td>
+        </tr>
+        <tr>
+          <td>16 and above</td>
+          <td>College Graduate</td>
+          <td>
+            Very difficult to read. Best understood by advanced degree holders.
+          </td>
+        </tr>
+      </table>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
